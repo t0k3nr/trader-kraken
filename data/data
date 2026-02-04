@@ -1,0 +1,222 @@
+Market order buy
+
+
+{
+   "channel":"executions",
+   "type":"update",
+   "data":[
+      {
+         "order_id":"OC3NBC-LXCJV-S6BPEM",
+         "symbol":"BTC/USD",
+         "cash_order_qty":5.00,
+         "cum_cost":0.00000,
+         "time_in_force":"GTC",
+         "exec_type":"pending_new",
+         "side":"buy",
+         "order_type":"market",
+         "order_userref":0,
+         "limit_price":0.0,
+         "stop_price":0.0,
+         "order_status":"pending_new",
+         "fee_usd_equiv":0.00000,
+         "fee_ccy_pref":"fciq",
+         "timestamp":"2025-02-10T20:03:40.477274Z"
+      }
+   ],
+   "sequence":6
+}
+
+{
+   "channel":"executions",
+   "type":"update",
+   "data":[
+      {
+         "timestamp":"2025-02-10T20:03:40.477274Z",
+         "order_status":"new",
+         "exec_type":"new",
+         "order_userref":0,
+         "order_id":"OC3NBC-LXCJV-S6BPEM"
+      }
+   ],
+   "sequence":7
+}
+
+{
+   "channel":"executions",
+   "type":"update",
+   "data":[
+      {
+         "order_id":"OC3NBC-LXCJV-S6BPEM",
+         "order_userref":0,
+         "exec_id":"T66EJ4-KMPVO-OREEY5",
+         "exec_type":"trade",
+         "trade_id":79752474,
+         "symbol":"BTC/USD",
+         "side":"buy",
+         "last_qty":0.00005135,
+         "last_price":97371.3,
+         "liquidity_ind":"t",
+         "cost":5.00000,
+         "order_type":"market",
+         "timestamp":"2025-02-10T20:03:40.477274Z",
+         "order_status":"partially_filled",
+         "cum_qty":0.00005135,
+         "cum_cost":5.00000,
+         "avg_price":97371.0,
+         "fee_usd_equiv":0.02000,
+         "fees":[
+            {
+               "asset":"USD",
+               "qty":0.02000
+            }
+         ]
+      }
+   ],
+   "sequence":8
+}
+
+{
+   "channel":"executions",
+   "type":"update",
+   "data":[
+      {
+         "timestamp":"2025-02-10T20:03:40.477274Z",
+         "order_status":"filled",
+         "exec_type":"filled",
+         "cum_qty":0.00005135,
+         "cum_cost":5.00000,
+         "fee_usd_equiv":0.02000,
+         "avg_price":97371.0,
+         "order_userref":0,
+         "order_id":"OC3NBC-LXCJV-S6BPEM"
+      }
+   ],
+   "sequence":9
+}
+
+Market order sell
+
+{
+   "channel":"executions",
+   "type":"update",
+   "data":[
+      {
+         "order_id":"O7XI2C-P3XLV-H7LI6A",
+         "symbol":"BTC/USD",
+         "order_qty":0.00005000,
+         "cum_cost":0.00000,
+         "time_in_force":"GTC",
+         "exec_type":"pending_new",
+         "side":"sell",
+         "order_type":"market",
+         "order_userref":0,
+         "limit_price":0.0,
+         "stop_price":0.0,
+         "order_status":"pending_new",
+         "fee_usd_equiv":0.00000,
+         "fee_ccy_pref":"fciq",
+         "timestamp":"2025-02-10T20:07:44.357579Z"
+      }
+   ],
+   "sequence":2
+}
+#9
+
+{
+   "channel":"executions",
+   "type":"update",
+   "data":[
+      {
+         "timestamp":"2025-02-10T20:07:44.357579Z",
+         "order_status":"new",
+         "exec_type":"new",
+         "order_userref":0,
+         "order_id":"O7XI2C-P3XLV-H7LI6A"
+      }
+   ],
+   "sequence":3
+}
+
+
+{
+   "channel":"executions",
+   "type":"update",
+   "data":[
+      {
+         "order_id":"O7XI2C-P3XLV-H7LI6A",
+         "order_userref":0,
+         "exec_id":"T7LLL5-N6ILW-MQGCNS",
+         "exec_type":"trade",
+         "trade_id":79752515,
+         "symbol":"BTC/USD",
+         "side":"sell",
+         "last_qty":0.00005000,
+         "last_price":97372.1,
+         "liquidity_ind":"t",
+         "cost":4.86861,
+         "order_type":"market",
+         "timestamp":"2025-02-10T20:07:44.357579Z",
+         "order_status":"partially_filled",
+         "cum_qty":0.00005000,
+         "cum_cost":4.86861,
+         "avg_price":97372.2,
+         "fee_usd_equiv":0.01947,
+         "fees":[
+            {
+               "asset":"USD",
+               "qty":0.01947
+            }
+         ]
+      }
+   ],
+   "sequence":4
+}
+
+
+{
+   "channel":"executions",
+   "type":"update",
+   "data":[
+      {
+         "timestamp":"2025-02-10T20:07:44.357579Z",
+         "order_status":"filled",
+         "exec_type":"filled",
+         "cum_qty":0.00005000,
+         "cum_cost":4.86861,
+         "fee_usd_equiv":0.01947,
+         "avg_price":97372.2,
+         "order_userref":0,
+         "order_id":"O7XI2C-P3XLV-H7LI6A"
+      }
+   ],
+   "sequence":5
+}
+
+Subscribe Order Snapshot
+
+{
+   "channel":"executions",
+   "type":"snapshot",
+   "data":[
+      {
+         "order_id":"OMDWHG-LAFGG-B7DE6V",
+         "symbol":"SOL/USD",
+         "order_qty":0.20000000,
+         "cum_cost":0.00000,
+         "time_in_force":"GTC",
+         "exec_type":"new",
+         "side":"sell",
+         "order_type":"limit",
+         "cl_ord_id":"da507c13-3452-4a2e-93de-18392d6a953b",
+         "limit_price_type":"static",
+         "limit_price":300.00,
+         "stop_price":0.00,
+         "order_status":"new",
+         "fee_usd_equiv":0.00000,
+         "fee_ccy_pref":"fciq",
+         "timestamp":"2025-02-09T23:22:03.658312Z"
+      }
+   ],
+   "sequence":1
+}
+

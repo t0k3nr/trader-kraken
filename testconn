@@ -1,0 +1,32 @@
+{
+
+"type":"subscribe",
+
+"product_ids":["BTC-USDT"],
+"channels":["level2","matches","user","heartbeat"],
+
+
+"signature":"KoDn4PX+5Mj/nfsFiTWWfk9LgDbCxqRg6Y0x/dfrrQ0=",
+"key":"a00736de1bf6527cd9ef2f24567b4bb2",
+"timestamp":"1674664913.85591",
+"passphrase":"*********"}
+
+
+{
+    "type": "subscribe",
+    "product_ids": [
+        "ETH-USD",
+        "ETH-EUR"
+    ],
+    "channels": [
+        "level2",
+        "heartbeat",
+        {
+            "name": "ticker",
+            "product_ids": [
+                "ETH-BTC",
+                "ETH-USD"
+            ]
+        }
+    ]
+}
