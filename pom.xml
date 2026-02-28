@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.uche.t0k3n4</groupId>
   <artifactId>trader-kraken</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1-SNAPSHOT</version>
   <properties>
     <compiler-plugin.version>3.12.1</compiler-plugin.version>
     <maven.compiler.release>21</maven.compiler.release>
